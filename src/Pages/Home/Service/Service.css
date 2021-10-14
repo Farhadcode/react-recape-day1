@@ -1,7 +1,10 @@
-.service{
+.servic{
     box-shadow:  2px 4px 12px lightgray;
-    margin: 10px;
-    padding:5px;
+    text-align: center;
     border-radius: 10px;
     background-color: rgb(219, 240, 236);
+}
+.servic-detals{
+    padding: 10px;
+    /* text-align: center; */
 }
