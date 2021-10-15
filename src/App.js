@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home/Home';
 import Login from "./Pages/Login/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
 import Header from "./Pages/Shared/Header/Header";
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 
 
@@ -29,9 +30,9 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <Route path="/booking/:serviceId">
+          <PrivateRoute path="/booking/:serviceId">
             <Booking></Booking>
-          </Route>
+          </PrivateRoute>
 
           <Route path="*">
             <NotFound></NotFound>
